@@ -40,8 +40,30 @@ public class IntNodeTest {
 		
 		//testing my search
 		System.out.println("");
-		System.out.println("Testing extra methods");
-		System.out.println(IntNode.valSearch(example, 10));
+		System.out.println("Testing Lab 5 methods");
+		
+		System.out.println("");
+		System.out.println("TESTING LISTEVENNUMBERS");
+		System.out.println(IntNode.listEveneNumber(example));
+		System.out.println("");
+		System.out.println("TESTING ADD TO END");
+		example.addToEnd(12);
+		System.out.println(example.toString());
+		
+		System.out.println("");
+		System.out.println("TESTING SUM TO LAST");
+		System.out.println(IntNode.sumLast(example, 2));
+		
+		System.out.println("");
+		System.out.println("TESTING METHOD LIST COPY");
+		System.out.println(IntNode.copyOdd(example));
+		
+		System.out.println("");
+		System.out.println("TESTING METHOD LIST COPY");
+		System.out.println(IntNode.removeAll(example, 1));
+		
+
+		//example.addToEnd();
 		
 		
 	}
