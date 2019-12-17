@@ -1,0 +1,5 @@
+Current time is 23:13:15 GMT
+Current time is 23:31:30 GMT
+Summation for number 20 is: 210
+Summation for number 10 is: 1023
+
